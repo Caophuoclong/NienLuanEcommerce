@@ -13,7 +13,7 @@ export default function LogIn() {
         <div className="bg-white w-full h-full z-50  shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
           <div className="flex space-y-5 flex-col h-full justify-center items-center">
             <div className="text-3xl font-sans font-bold ">
-              <p>Sign In Account</p>
+              <p>Sign In AccountTe</p>
             </div>
 
             <div className="flex flex-row space-x-9">

@@ -12,7 +12,7 @@ export default function Register() {
         {/*left side*/}
         <div className="bg-green-500 h-full w-full flex text-center flex-col space-y-5 items-center justify-center z-10 shadow-[0_15px_30px_-5px_rgba(0,0,0,0.3)]">
           <div className="text-white text-3xl font-sans font-bold">
-            <p>Welcome Back!</p>
+            <p>Welcome Back!Te</p>
           </div>
 
           <div className="text-white">
