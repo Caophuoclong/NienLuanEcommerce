@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaTrashAlt } from "react-icons/fa";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
+import { AiOutlineMinus } from "react-icons/ai";
+import { BsPlusLg } from "react-icons/bs";
 
 export default function Cart(
   id,
@@ -14,6 +16,32 @@ export default function Cart(
   changeQuantity
 ){
   return (
+    // <div class="table w-full ...">
+    //   <div class="table-header-group ...">
+    //     <div class="table-row">
+    //       <div class="table-cell text-left ...">Song</div>
+    //       <div class="table-cell text-left ...">Artist</div>
+    //       <div class="table-cell text-left ...">Year</div>
+    //     </div>
+    //   </div>
+    //   <div class="table-row-group">
+    //     <div class="table-row">
+    //       <div class="table-cell ...">The Sliding Mr. Bones (Next Stop, Pottersville)</div>
+    //       <div class="table-cell ...">Malcolm Lockyer</div>
+    //       <div class="table-cell ...">1961</div>
+    //     </div>
+    //     <div class="table-row">
+    //       <div class="table-cell ...">Witchy Woman</div>
+    //       <div class="table-cell ...">The Eagles</div>
+    //       <div class="table-cell ...">1972</div>
+    //     </div>
+    //     <div class="table-row">
+    //       <div class="table-cell ...">Shining Star</div>
+    //       <div class="table-cell ...">Earth, Wind, and Fire</div>
+    //       <div class="table-cell ...">1975</div>
+    //     </div>
+    //   </div>
+    // </div>
     <div className="px-[10rem] mt-3">
       <Link to="/" className='text-blue-500'>Trang chủ</Link>
       {' > '}
@@ -52,8 +80,10 @@ export default function Cart(
               <td className="border border-black"> Áo Bomber TEDDY xanh rêu Áo Bomber TEDDY xanh rêu</td>
               <td >
                 <div className="flex justify-center">
-                  <div className="text-2xl font-bold text-green-400">169.000</div>
-                  <div className="text-base font-bold mb-2 mr-4 text-red-400 underline decoration-2">VNĐ</div>
+                  <div className="text-4xl font-bold  my-7 ml-2 text-green-400">
+                    {/* {price} */}
+                    169.000</div>
+                  <div className="text-base font-bold mt-7 ml-1 mr-2 text-red-400 underline decoration-2">VNĐ</div>
                 </div>
               </td>
               <td className="border border-black ">
@@ -66,8 +96,10 @@ export default function Cart(
               </td>
               <td >
                 <div className="flex justify-center">
-                  <div className="text-2xl font-bold text-green-400">169.000</div>
-                  <div className="text-base font-bold mb-2 mr-4 text-red-400 underline decoration-2">VNĐ</div>
+                  <div className="text-4xl font-bold  my-7 ml-2 text-green-400">
+                    {/* {price} */}
+                    169.000</div>
+                  <div className="text-base font-bold mt-7 ml-1 mr-2 text-red-400 underline decoration-2">VNĐ</div>
                 </div>
               </td>
             </tr>
@@ -79,8 +111,10 @@ export default function Cart(
               <td className="border border-black">Product 2</td>
               <td >
                 <div className="flex justify-center">
-                  <div className="text-2xl font-bold text-green-400">169.000</div>
-                  <div className="text-base font-bold mb-2 mr-4 text-red-400 underline decoration-2">VNĐ</div>
+                  <div className="text-4xl font-bold  my-7 ml-2 text-green-400">
+                    {/* {price} */}
+                    169.000</div>
+                  <div className="text-base font-bold mt-7 ml-1 mr-2 text-red-400 underline decoration-2">VNĐ</div>
                 </div>
               </td>
               <td className="border border-black ">
@@ -93,8 +127,10 @@ export default function Cart(
               </td>
               <td >
                 <div className="flex justify-center">
-                  <div className="text-2xl font-bold text-green-400">169.000</div>
-                  <div className="text-base font-bold mb-2 mr-4 text-red-400 underline decoration-2">VNĐ</div>
+                  <div className="text-4xl font-bold  my-7 ml-2 text-green-400">
+                    {/* {price} */}
+                    169.000</div>
+                  <div className="text-base font-bold mt-7 ml-1 mr-2 text-red-400 underline decoration-2">VNĐ</div>
                 </div>
               </td>
             </tr>
@@ -106,8 +142,10 @@ export default function Cart(
               <td className="border border-black">Product 3</td>
               <td >
                 <div className="flex justify-center">
-                  <div className="text-2xl font-bold text-green-400">169.000</div>
-                  <div className="text-base font-bold mb-2 mr-4 text-red-400 underline decoration-2">VNĐ</div>
+                  <div className="text-4xl font-bold  my-7 ml-2 text-green-400">
+                    {/* {price} */}
+                    169.000</div>
+                  <div className="text-base font-bold mt-7 ml-1 mr-2 text-red-400 underline decoration-2">VNĐ</div>
                 </div>
               </td>
               <td className="border border-black ">
@@ -120,8 +158,10 @@ export default function Cart(
               </td>
               <td >
                 <div className="flex justify-center">
-                  <div className="text-2xl font-bold text-green-400">169.000</div>
-                  <div className="text-base font-bold mb-2 mr-4 text-red-400 underline decoration-2">VNĐ</div>
+                  <div className="text-4xl font-bold  my-7 ml-2 text-green-400">
+                    {/* {price} */}
+                    169.000</div>
+                  <div className="text-base font-bold mt-7 ml-1 mr-2 text-red-400 underline decoration-2">VNĐ</div>
                 </div>
               </td>
             </tr>
@@ -133,8 +173,10 @@ export default function Cart(
               <td className="border border-black">Product 4</td>
               <td >
                 <div className="flex justify-center">
-                  <div className="text-2xl font-bold text-green-400">169.000</div>
-                  <div className="text-base font-bold mb-2 mr-4 text-red-400 underline decoration-2">VNĐ</div>
+                  <div className="text-4xl font-bold  my-7 ml-2 text-green-400">
+                    {/* {price} */}
+                    169.000</div>
+                  <div className="text-base font-bold mt-7 ml-1 mr-2 text-red-400 underline decoration-2">VNĐ</div>
                 </div>
               </td>
               <td className="border border-black ">
@@ -147,8 +189,10 @@ export default function Cart(
               </td>
               <td >
                 <div className="flex justify-center">
-                  <div className="text-2xl font-bold text-green-400">169.000</div>
-                  <div className="text-base font-bold mb-2 mr-4 text-red-400 underline decoration-2">VNĐ</div>
+                  <div className="text-4xl font-bold  my-7 ml-2 text-green-400">
+                    {/* {price} */}
+                    169.000</div>
+                  <div className="text-base font-bold mt-7 ml-1 mr-2 text-red-400 underline decoration-2">VNĐ</div>
                 </div>
               </td>
             </tr>
@@ -159,11 +203,17 @@ export default function Cart(
                 <div className="flex justify-end items-center">
                 <div>
                   <p className="text-xl">Mã giảm giá:</p>
-                  <input className="text-xl border border-black rounded-md pl-3 mr-10 mt-3" type="text" name="" id="" />
+                  <input className="text-xl border border-black rounded-md pl-3 mr-5 mt-3" type="text" name="" id="" />
+                  <button className="bg-green-400 p-1 rounded-lg border border-black hover:border-blue-400 hover:border-2 hover:scale-105 mr-7">
+                    <p className="text-xl text-white font-bold">Áp mã</p>
+                  </button>
                 </div>
                   <div className="text-center text-2xl font-bold mr-3 ml-12">Tổng:</div>
                   <div className="flex items-center gap-1">
-                    <div className="text-4xl font-bold  my-7 text-green-400">169.000</div>
+                  <div className="text-4xl font-bold  my-7 text-green-400">
+                    {/* {price} */}
+                    169.000
+                  </div>
                     <div className="text-base font-bold mb-2 mr-4 text-red-400 underline decoration-2">VNĐ</div>
                   </div>
                   <button className="text-white hover:bg-blue-400 flex items-center justify-center bg-green-400 group gap-x-2 rounded-2xl border border-black h-16 w-44 mr-12">
@@ -177,8 +227,8 @@ export default function Cart(
         </table>
       </div>
       <div className="px-[7rem]">
-        <p className="text-3xl font-bold text-center mt-6 mb-6">Thông tin khách hàng</p>
-        <div>
+        <div className="border border-black rounded-xl bg-gray-200 p-10 mt-10">       
+          <p className="text-3xl font-bold text-center mb-6">Thông tin khách hàng</p>
           <div className="flex justify-between">
             <div className="flex items-center">
               <p className="text-xl font-bold mr-3">Họ và tên:</p>
@@ -194,23 +244,29 @@ export default function Cart(
             <input className="border border-black rounded-sm pl-2 h-10 w-full" type="text" name="" id="" />
           </div> 
           {/* Giữ 1 trong 2 chổ thanh toán */}
-          <div className="flex bg-blue-100 justify-end items-center mt-5">
+          <div className="flex border border-black rounded-xl bg-blue-200 justify-end items-center mt-5 p-2">
             <div>
               <p className="text-xl">Mã giảm giá:</p>
-              <input className="text-xl border border-black rounded-md pl-3 mr-10 mt-3" type="text" name="" id="" />
+              <input className="text-xl border border-black rounded-md pl-3 mr-3 mt-3" type="text" name="" id="" />
+              <button className="bg-green-400 p-1 rounded-lg border border-black hover:border-blue-400 hover:border-2 hover:scale-105 mr-7">
+                <p className="text-xl text-white font-bold">Áp mã</p>
+              </button>
             </div>
-            <div className="text-center text-2xl font-bold mr-3 ml-12">Tổng:</div>
+            <div className="text-center text-2xl font-bold mr-3 ml-2">Tổng:</div>
             <div className="flex items-center gap-1">
-              <div className="text-4xl font-bold  my-7 text-green-400">169.000</div>
+              <div className="text-4xl font-bold  my-7 text-green-400">
+                {/* {price} */}
+                169.000
+              </div>
               <div className="text-base font-bold mb-2 mr-4 text-red-400 underline decoration-2">VNĐ</div>
             </div>
-            <button className="text-white hover:bg-blue-400 flex items-center justify-center bg-green-400 group gap-x-2 rounded-2xl border border-black h-16 w-44 mr-12">
+            <button className="text-white hover:bg-blue-400 flex items-center justify-center bg-green-400 group gap-x-2 rounded-2xl border border-black h-16 w-44 ">
               <p className='font-bold text-[2rem] rounder-lg'>Đặt hàng</p>
               <MdOutlineAddShoppingCart className="text-[1.6rem]"/>
             </button>
           </div>
-          <div className="mb-72"></div>
         </div>
-      </div>
-  </div>
+        
+      </div> 
+    </div>
   )}
